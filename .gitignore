@@ -12,6 +12,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
 # vim files
 *~
 .*.sw[po]
