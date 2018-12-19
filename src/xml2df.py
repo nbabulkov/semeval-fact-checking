@@ -18,8 +18,12 @@ class XMLParser:
     def parse_element(self, element, parsed=None):
         """ Collect {key:attribute} and {tag:text} from the XML
          element and all its children into a single dictionary of strings."""
+
         if parsed is None:
             parsed = dict()
+
+        if element.tag == "RelComment":
+            return parsed
 
         for key in element.keys():
             if key not in parsed:
