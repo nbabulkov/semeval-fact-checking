@@ -1,7 +1,13 @@
 import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
+
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sn
+from nltk.tokenize import TweetTokenizer
 
 from xml2df import XMLParser
 
