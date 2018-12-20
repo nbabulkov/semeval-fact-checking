@@ -1,6 +1,5 @@
 import os
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.preprocessing import OneHotEncoder
 from sklearn.svm import SVC
 import pandas as pd
 
