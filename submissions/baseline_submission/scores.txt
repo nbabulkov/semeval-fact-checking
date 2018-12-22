@@ -1,0 +1,7 @@
+questions_accuracy:0.757322175732
+questions_f1:0.582610857708
+questions_avgrec:0.559867674668
+answers_accuracy:0.642857142857
+answers_fscore:0.211382113821
+answers_avgrec:0.333333333333
+answers_map:0.716666666667
